@@ -7,7 +7,6 @@
 |email|string|null: false|
 |password|string|null: false|
 |nickname|string|null: false|
-|group_id|integer|null: false, foreign_key: true|
 
 ### Association
 - has_many :groups_users
