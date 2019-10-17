@@ -84,13 +84,18 @@
   .right__body {
     height: 300px;
     background-color: #fafafa;
+      .body-first {
+        margin-bottom: 40px;
+      }
       .body-first, .body-second {
         .title {
           display: flex;
+          margin-bottom: 10px;
             .name {
               font-size: 16px;
               font-weight: bold;
               color: #434A54;
+              margin-right: 10px;
             }
             .date {
                 font-size: 12px;
