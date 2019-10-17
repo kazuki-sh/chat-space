@@ -121,6 +121,12 @@
           color: #434A54;
           line-height: 50px;
           padding-left: 10px;
+          position: relative;
+            i.fa.fa-image {
+              position: absolute;
+              top: 17px;
+              right: 10px;
+            }
             
 
         }
