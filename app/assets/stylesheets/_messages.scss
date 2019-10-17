@@ -33,6 +33,10 @@
   .left__body {
     background-color: #2f3e51;
     height: 100vh;
+      .content-first {
+        padding-top: 20px;
+        margin-bottom: 40px;
+      }
       .content-first,.content-second {
           p.group_name {
               font-size: 15px;
