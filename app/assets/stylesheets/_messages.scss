@@ -14,7 +14,6 @@
 }
 .contents__left {
   width: 300px;
-  height: 500px;
   .left__header {
     height: 100px;
     background-color: #253141;
@@ -32,10 +31,9 @@
   }
 
   .left__body {
-    height: 400px;
     background-color: #2f3e51;
+    height: 100vh;
       .content-first,.content-second {
-        height: 100px;
           p.group_name {
               font-size: 15px;
               color: #ffffff;
@@ -53,7 +51,6 @@
 
 .contents__right {
   width: calc(100% - 300px);
-  height: 500px;
   .right__header {
     height: 100px;
     display: flex;
@@ -82,7 +79,7 @@
       
   }
   .right__body {
-    height: 300px;
+    height: calc(100vh - 100px);
     background-color: #fafafa;
       .body-first {
         margin-bottom: 40px;
