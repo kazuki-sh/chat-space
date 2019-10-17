@@ -25,11 +25,15 @@
         margin-left: 30px;
         line-height: 100px;
       }
+      
   }
 
   .left__body {
     height: 400px;
     background-color: #2f3e51;
+      .content {
+        height: 100px;
+      }
   }
 }
 
