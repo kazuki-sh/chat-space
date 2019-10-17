@@ -112,5 +112,15 @@
   .right__footer {
     height: 100px;
     background-color: gray;
+      .footer__content {
+        width: 80%;
+        height: 50px;
+        background-color: #fff;
+      }
+      .send-btn {
+        width: 20%;
+        height: 50px;
+        background-color: #38aef0;
+      }
   }
 }
