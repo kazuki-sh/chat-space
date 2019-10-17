@@ -84,6 +84,11 @@
   .right__body {
     height: 300px;
     background-color: #fafafa;
+      .body-first, .body-second {
+        .title {
+          display: flex;
+        }
+      }
   }
   .right__footer {
     height: 100px;
