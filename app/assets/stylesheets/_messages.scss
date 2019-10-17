@@ -17,14 +17,17 @@
   .left__header {
     height: 100px;
     background-color: #253141;
+    padding: 0 20px 0;
       .name {
         color: #ffffff;
         font-size: 16px;
         font-weight: bold;
-        margin-left: 30px;
         line-height: 100px;
-          i.fa.fa-edit {
-            padding-left: 150px;
+        position: relative;
+          .icon {
+            position: absolute;
+            top: 0;
+            right: 0px;
           }
       }
       
@@ -33,6 +36,7 @@
   .left__body {
     background-color: #2f3e51;
     height: 100vh;
+    padding: 0 20px 0;
       .content-first {
         padding-top: 20px;
         margin-bottom: 40px;
@@ -55,6 +59,7 @@
 
 .contents__right {
   width: calc(100% - 300px);
+  
   .right__header {
     height: 99px;
     display: flex;
