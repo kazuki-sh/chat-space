@@ -34,12 +34,13 @@
   .left__body {
     height: 400px;
     background-color: #2f3e51;
-      .content {
+      .content-first {
         height: 100px;
           p.group_name {
               font-size: 15px;
               color: #ffffff;
               font-weight: bold;
+              margin-bottom: 5px;
             }
           p.group_message {
               font-size: 11px;
