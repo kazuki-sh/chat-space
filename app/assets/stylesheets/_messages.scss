@@ -2,7 +2,7 @@
   width: 720px;
   height: 30px;
   background-color: #38aef0;
-    .header__content {
+    &__content {
       color: #ffffff;
       line-height: 30px;
       text-align: center;
@@ -18,6 +18,9 @@
   .left__header {
     height: 100px;
     background-color: #253141;
+      .name {
+        
+      }
   }
 
   .left__body {
