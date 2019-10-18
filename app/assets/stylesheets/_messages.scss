@@ -24,15 +24,15 @@
         font-weight: bold;
         line-height: 100px;
         position: relative;
-        .LeftHeader__icon {
-            position: absolute;
-            top: 0;
-            right: 0px;
-              .EditIcon, .CogIcon {
-                text-decoration: none;
-                color: #fff;
-              }
-          }
+          .LeftHeader__icon {
+              position: absolute;
+              top: 0;
+              right: 0px;
+                .LeftHeader__editLink, .LeftHeader__cogLink {
+                  text-decoration: none;
+                  color: #fff;
+                }
+            }
       }
       
   }
@@ -46,22 +46,22 @@
         margin-bottom: 40px;
       }
       &__first,&__second {
-          .GroupName {
-              font-size: 15px;
-              color: #ffffff;
-              font-weight: bold;
-              margin-bottom: 5px;
-            }
-          .GroupMessage {
-              font-size: 11px;
-              font-weight: bold;
-              color: #ffffff;
-            }
+        .LeftBody__GroupName {
+          font-size: 15px;
+          color: #ffffff;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+        .LeftBody__GroupMessage {
+          font-size: 11px;
+          font-weight: bold;
+          color: #ffffff;
+        }
       }
   }
 }
 
-.Contents__right {
+.ContentRight {
   width: calc(100% - 300px);
   
   .RightHeader {
@@ -137,7 +137,6 @@
             height: 50px;
             background-color: #fff;
             font-size: 16px;
-            position: relative;
           }
           .send-message::placeholder {
             color: #434A54;
