@@ -1,0 +1,54 @@
+.Contents {
+  display: flex;
+  .ContentLeft {
+    width: 300px;
+    .LeftHeader {
+      height: 100px;
+      background-color: #253141;
+      padding: 0 20px 0;
+      &__name {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 100px;
+        position: relative;
+        .LeftHeader__icon {
+          position: absolute;
+          top: 0;
+          right: 0px;
+          .LeftHeader__editLink, .LeftHeader__cogLink {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      } 
+    }
+  
+    .LeftBody {
+      background-color: #2f3e51;
+      height: 100vh;
+      padding: 0 20px 0;
+      &__first {
+        padding-top: 20px;
+        margin-bottom: 40px;
+      }
+      &__first,&__second {
+        .LeftBody__GroupName {
+          font-size: 15px;
+          color: #ffffff;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+        .LeftBody__GroupMessage {
+          font-size: 11px;
+          font-weight: bold;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+
+
+  
+}
