@@ -12,19 +12,19 @@
 .contents {
   display: flex;
 }
-.contents__left {
+.contentLeft {
   width: 300px;
-  .left__header {
+  .leftHeader {
     height: 100px;
     background-color: #253141;
     padding: 0 20px 0;
-      .name {
+      &__name {
         color: #ffffff;
         font-size: 16px;
         font-weight: bold;
         line-height: 100px;
         position: relative;
-          .icon {
+        .leftHeader__icon {
             position: absolute;
             top: 0;
             right: 0px;
@@ -37,15 +37,15 @@
       
   }
 
-  .left__body {
+  .leftBody {
     background-color: #2f3e51;
     height: 100vh;
     padding: 0 20px 0;
-      .content-first {
+      &__first {
         padding-top: 20px;
         margin-bottom: 40px;
       }
-      .content-first,.content-second {
+      &__first,&__second {
           .group_name {
               font-size: 15px;
               color: #ffffff;
@@ -64,24 +64,24 @@
 .contents__right {
   width: calc(100% - 300px);
   
-  .right__header {
+  .rightHeader {
     height: 99px;
     padding: 0 40px 0;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #eeeeee;
-      .left-box {
-        .name {
+      &__leftBox {
+        .rightHeader__name {
           font-size: 20px;
           color: #333333;
           margin: 35px 0 15px;
         }
-        .member {
+        .rightHeader__member {
           font-size: 12px;
           color: #999999;
         }
       }
-      .edit-btn {
+      &__edit-btn {
         height: 40px;
         margin-top: 28px;
         padding: 0 20px 0;
@@ -92,37 +92,37 @@
 
       
   }
-  .right__body {
+  .rightBody {
     height: calc(100vh - 100px);
     background-color: #fafafa;
     padding: 0 40px 0;
-      .body-first {
+      &__first {
         padding-top: 46px;
         margin-bottom: 40px;
       }
-      .body-first, .body-second {
-        .title {
+      &__first, &__second {
+        .rightBody__title {
           display: flex;
           margin-bottom: 10px;
-            .name {
+            .rightBody__name {
               font-size: 16px;
               font-weight: bold;
               color: #434A54;
               margin-right: 10px;
             }
-            .date {
+            .rightBody__date {
                 font-size: 12px;
                 color: #999999;
             }
         }
-        .text {
+        .rightBody__text {
           font-size: 14px;
           color: #434A54;
         }
         
       }
   }
-  .right__footer {
+  .rightFooter {
     height: 100px;
     padding: 0 40px 0;
     background-color: #ddd;
@@ -152,7 +152,7 @@
           }
       }
 
-      .send-btn {
+      &__send-btn {
         width: 100px;
         height: 50px;
         background-color: #38aef0;
