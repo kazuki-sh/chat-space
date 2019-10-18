@@ -1,66 +1,66 @@
-.header
-  .header__logo
+.Header
+  .Header__logo
     グループを作成しました
 
-.contents
-  .contentLeft
-    .leftHeader
-      .leftHeader__name
+.Contents
+  .ContentLeft
+    .LeftHeader
+      .LeftHeader__name
         KAZUKI
-        .leftHeader__icon
-          = link_to "#", class: "edit_icon" do
+        .LeftHeader__icon
+          = link_to "#", class: "EditIcon" do
             = fa_icon 'edit' 
-          = link_to "#", class: "cog_icon" do
+          = link_to "#", class: "CogIcon" do
             = fa_icon 'cog'
       
         
-    .leftBody
-      .leftBody__first
-        .group_name sample
-        .group_message Good bye work
+    .LeftBody
+      .LeftBody__first
+        .GroupName sample
+        .GroupMessage Good bye work
 
-      .leftBody__second
-        .group_name sample2
-        .group_message Good bye work2
-      
+      .LeftBody__second
+        .GroupMessage Good bye work2
+        .GroupName sample2
+    
     
 
-  .contents__right
-    .rightHeader
-      .rightHeader__leftBox
-        .rightHeader__name
+  .Contents__right
+    .RightHeader
+      .RightHeader__leftBox
+        .RightHeader__name
           sample
 
-        .rightHeader__member
+        .RightHeader__member
           Member : ayaka
-      .rightHeader__edit-btn
+      .RightHeader__editBtn
         Edit
         
       
-    .rightBody
-      .rightBody__first 
-        .rightBody__title
-          .rightBody__name
+    .RightBody
+      .RightBody__first 
+        .RightBody__title
+          .RightBody__name
             YUTO
-          .rightBody__date
+          .RightBody__date
             2019/10/17 15:41:45
-        .rightBody__text
+        .RightBody__text
           こんにちは
 
-      .rightBody__second
-        .rightBody__title
-          .rightBody__name
+      .RightBody__second
+        .RightBody__title
+          .RightBody__name
             AYAKA
-          .rightBody__date
+          .RightBody__date
             2019/10/17 15:41:45
-        .rightBody__text
+        .RightBody__text
           ありがとう
-    .rightFooter
+    .RightFooter
       %form
         %input.send-message{:type=>"text", :placeholder=>"type a message" }
         %label.upload-label{for: "upload-icon"}
           %i.fa.fa-picture-o
           %input{:type=>"file", :style=>"display:none", :id=>"upload-icon"}
-      .rightFooter__send-btn
+      .RightFooter__sendBtn
         Send
       
