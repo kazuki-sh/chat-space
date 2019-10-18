@@ -54,9 +54,9 @@
         .text
           ありがとう
     .right__footer
-      .left-box
-        type a message
-        = fa_icon 'image'
+      %form
+        %input.send-message{:type=>"text", :placeholder=>"type a message" }
+        
       .send-btn
         Send
       
