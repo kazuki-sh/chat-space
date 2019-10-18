@@ -1,66 +1,66 @@
 .header
-  .header__content
+  .header__logo
     グループを作成しました
 
 .contents
-  .contents__left
-    .left__header
-      .name
+  .contentLeft
+    .leftHeader
+      .leftHeader__name
         KAZUKI
-        .icon
+        .leftHeader__icon
           = link_to "#", class: "edit_icon" do
             = fa_icon 'edit' 
           = link_to "#", class: "cog_icon" do
             = fa_icon 'cog'
       
         
-    .left__body
-      .content-first
+    .leftBody
+      .leftBody__first
         .group_name sample
         .group_message Good bye work
 
-      .content-second
+      .leftBody__second
         .group_name sample2
         .group_message Good bye work2
       
     
 
   .contents__right
-    .right__header
-      .left-box
-        .name
+    .rightHeader
+      .rightHeader__leftBox
+        .rightHeader__name
           sample
 
-        .member
+        .rightHeader__member
           Member : ayaka
-      .edit-btn
+      .rightHeader__edit-btn
         Edit
         
       
-    .right__body
-      .body-first 
-        .title
-          .name
+    .rightBody
+      .rightBody__first 
+        .rightBody__title
+          .rightBody__name
             YUTO
-          .date
+          .rightBody__date
             2019/10/17 15:41:45
-        .text
+        .rightBody__text
           こんにちは
 
-      .body-second 
-        .title
-          .name
+      .rightBody__second
+        .rightBody__title
+          .rightBody__name
             AYAKA
-          .date
+          .rightBody__date
             2019/10/17 15:41:45
-        .text
+        .rightBody__text
           ありがとう
-    .right__footer
+    .rightFooter
       %form
         %input.send-message{:type=>"text", :placeholder=>"type a message" }
         %label.upload-label{for: "upload-icon"}
           %i.fa.fa-picture-o
           %input{:type=>"file", :style=>"display:none", :id=>"upload-icon"}
-      .send-btn
+      .rightFooter__send-btn
         Send
       
