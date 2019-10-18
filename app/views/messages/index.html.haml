@@ -8,8 +8,10 @@
       .name
         KAZUKI
         .icon
-          = fa_icon 'edit' 
-          = fa_icon 'cog'
+          = link_to "#", class: "edit_icon" do
+            = fa_icon 'edit' 
+          = link_to "#", class: "cog_icon" do
+            = fa_icon 'cog'
       
         
     .left__body

@@ -28,6 +28,10 @@
             position: absolute;
             top: 0;
             right: 0px;
+              .edit_icon, .cog_icon {
+                text-decoration: none;
+                color: #fff;
+              }
           }
       }
       
