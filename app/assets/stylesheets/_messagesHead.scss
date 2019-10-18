@@ -1,11 +1,11 @@
 .Header {
-  width: 100%;
+  width: $SizeMax;
   height: 30px;
-  background-color: #38aef0;
+  background-color: $ColorBlue;
   &__logo {
-    color: #ffffff;
+    color: $ColorWhite;
     line-height: 30px;
-    text-align: center;
+    text-align: $Center;
   }
 }
 
