@@ -6,10 +6,10 @@
   .ContentLeft
     .LeftHeader
       .LeftHeader__name
-        KAZUKI
+        = current_user.name
         .LeftHeader__icon
-          = link_to "#", class: "LeftHeader__editLink" do
-            = fa_icon 'edit' 
+          = link_to new_group_path do
+            = fa_icon 'edit', class: "LeftHeader__editLink"
           = link_to "#", class: "LeftHeader__cogLink" do
             = fa_icon 'cog'
       
